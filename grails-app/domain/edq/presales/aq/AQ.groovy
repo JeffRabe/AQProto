@@ -6,7 +6,7 @@ class AQ {
 	String name
 	String productName
 	String version
-	MultiChoiceQuestion[] questions
+	String[] questions
 	
 	
     static constraints = {
