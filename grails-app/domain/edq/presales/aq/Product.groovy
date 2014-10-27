@@ -12,8 +12,10 @@ class Product {
 		productVersion blank: false
     }
 	
+	/*
 	static mapping = {
 		
 		productVersion "product_version"
 	}
+	*/
 }

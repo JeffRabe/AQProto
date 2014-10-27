@@ -12,6 +12,9 @@ class SolutionController {
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
+		
+		List<Solution> solutions = Solutions.list();
+		solutions.each {println it}
         respond Solution.list(params), model:[solutionInstanceCount: Solution.count()]
     }
 
